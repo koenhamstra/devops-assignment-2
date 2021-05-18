@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<body>
 <x-guest-layout>
     <x-auth-card>
         <x-slot name="logo">
@@ -60,5 +57,4 @@
         </form>
     </x-auth-card>
 </x-guest-layout>
-</body>
-</html>
+
