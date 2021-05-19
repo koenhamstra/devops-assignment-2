@@ -47,13 +47,10 @@
                         <div class="collapse navbar-collapse" id="navbarsExample04">
                             <ul class="navbar-nav mr-auto">
                                 @auth()
-                                    <li class="nav-item active">
-                                        <a class="nav-link" href="/">UserPage</a>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/form">Form</a>
                                     </li>
                                 @endauth()
-                                <li class="nav-item">
-                                    <a class="nav-link" href="/form">Form</a>
-                                </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="/123"> About </a>
                                 </li>
