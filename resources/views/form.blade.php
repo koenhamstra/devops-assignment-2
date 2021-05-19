@@ -92,14 +92,14 @@
 </header>
 <section class="section">
     <div class="container">
-       <div class="form-description">
-           <h1 class="title">
-               Usability
-           </h1>
-           <p class="subtitle">
-               Assignment  <strong>2</strong>
-           </p>
-       </div>
+        <div class="form-description">
+            <h1 class="title">
+                Usability
+            </h1>
+            <p class="subtitle">
+                Assignment <strong>2</strong>
+            </p>
+        </div>
         <form method="POST" class='blog-form' action="{{ route('form.store') }}">
             @csrf
             <div class="field is-horizontal">
@@ -161,7 +161,8 @@
                 <div class="field-body">
                     <div class="field">
                         <p class="control is-expanded has-icons-right">
-                            <input class="input @error('email') is-danger @enderror" type="text" placeholder="name@example.com"
+                            <input class="input @error('email') is-danger @enderror" type="text"
+                                   placeholder="name@example.com"
                                    id="email" name="contact_email">
                         </p>
                         @error('contact_email')
