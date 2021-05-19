@@ -18,7 +18,6 @@ class CreateFormsTable extends Migration
             $table->string("first_name");
             $table->text("purpose");
             $table->string("last_name");
-            $table->string("contact_name");
             $table->string("contact_email");
             $table->timestamps();
         });

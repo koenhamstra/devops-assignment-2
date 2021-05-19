@@ -118,7 +118,7 @@
                     <span>Framework Development 2</span>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
-                    <a href="#">Get Started</a>
+                    <a href="/form">Get Started</a>
                 </div>
             </div>
             <div class="col-md-7">
@@ -130,106 +130,6 @@
     </div>
 </section>
 <!-- end banner -->
-<!-- why -->
-{{-- <div id="why" class="why">
-   <div class="container">
-      <div class="row">
-         <div class="col-md-12">
-            <div class="titlepage">
-               <h2>Why you should choose </h2>
-               <p>making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still </p>
-            </div>
-         </div>
-      </div>
-      <div class="row">
-         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-            <div id="box_ho" class="why-box">
-               <i><img src="images/why1.png" alt="#" /></i>
-               <h3>Powerful Features</h3>
-               <p>making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still </p>
-            </div>
-            <a class="read_more bg" href="#">Read More</a>
-         </div>
-         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-            <div class="why-box">
-               <i><img src="images/why2.png" alt="#" /></i>
-               <h3>Totaly Optimised</h3>
-               <p>making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still </p>
-            </div>
-            <a class="read_more bg" href="#">Read More</a>
-         </div>
-         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-            <div class="why-box">
-               <i><img src="images/why3.png" alt="#" /></i>
-               <h3>Worldwide Support</h3>
-               <p>making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still </p>
-            </div>
-            <a class="read_more bg" href="#">Read More</a>
-         </div>
-      </div>
-   </div>
-</div> --}}
-<!-- end why -->
-<!-- contact -->
-{{-- <div id="contact" class="contact">
-   <div class="container">
-      <div class="row">
-         <div class="col-md-6 offset-md-3 ">
-            <form class="main_form">
-               <div class="row">
-                  <div class="col-sm-12">
-                     <input class="contactus" placeholder="Name" type="text" name="Name">
-                  </div>
-                  <div class="col-sm-12">
-                     <input class="contactus" placeholder="Email" type="text" name=" Email">
-                  </div>
-                  <div class="col-sm-12">
-                     <input class="contactus" placeholder="Phone" type="text" name="Phone">
-                  </div>
-                  <div class="col-sm-12">
-                     <textarea class="textarea" placeholder="Message" type="text" name="Message"></textarea>
-                  </div>
-                  <div class="col-sm-12">
-                     <button class="send">Send</button>
-                  </div>
-               </div>
-            </form>
-         </div>
-      </div>
-   </div>
-</div> --}}
-
-<!-- end contact -->
-<!--  footer -->
-{{-- <footer>
-   <div class="footer">
-      <div class="container">
-         <div class="row">
-            <div class="col-md-10 offset-md-1">
-               <div class="cont">
-                  <h3>Contact now</h3>
-                  <span>Free Multipurpose Responsive Landing Page 2019</span>
-                  <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                     quissed do eiusmod tempor incididunt ut labore et dolore
-                     magna aliqua. Ut enim ad minim veniam, quis
-                  </p>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="copyright">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <p>© 2019 All Rights Reserved. <a href="https://html.design/">Free html Templates</a></p>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div> --}}
-
-</footer>
-<!-- end footer -->
 <!-- Javascript files-->
 <script src="js/jquery.min.js"></script>
 <script src="js/popper.min.js"></script>

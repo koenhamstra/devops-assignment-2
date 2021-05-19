@@ -90,7 +90,6 @@ class FormController extends Controller
             'first_name' => 'required',
             'last_name' => 'required',
             'purpose' => 'required',
-            'contact_name' => 'required',
             'contact_email' => 'required'
         ]);
     }

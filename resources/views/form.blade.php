@@ -104,7 +104,7 @@
             @csrf
             <div class="field is-horizontal">
                 <div class="field-label is-normal">
-                    <label class="label">First Name</label>
+                    <label class="label"><span class="text-danger">*</span>First Name</label>
                 </div>
                 <div class="field-body">
                     <div class="field">
@@ -122,7 +122,7 @@
 
             <div class="field is-horizontal">
                 <div class="field-label is-normal">
-                    <label class="label">Last Name</label>
+                    <label class="label"><span class="text-danger">*</span>Last Name</label>
                 </div>
                 <div class="field-body">
                     <div class="field">
@@ -139,7 +139,7 @@
 
             <div class="field is-horizontal">
                 <div class="field-label is-normal">
-                    <label class="label">Describe Purpose</label>
+                    <label class="label"><span class="text-danger">*</span>Describe Purpose</label>
                 </div>
                 <div class="field-body">
                     <div class="field">
@@ -156,22 +156,12 @@
 
             <div class="field is-horizontal">
                 <div class="field-label is-normal">
-                    <label class="label">Contact</label>
+                    <label class="label"><span class="text-danger">*</span>Email</label>
                 </div>
                 <div class="field-body">
                     <div class="field">
-                        <p class="control is-expanded has-icons-left">
-                            <input class="input @error('name') is-danger @enderror" type="text" placeholder="Name"
-                                   id="name"
-                                   name="contact_name">
-                        </p>
-                        @error('contact_name')
-                        <p class="help is-danger">{{ $errors->first('contact_name') }}</p>
-                        @enderror
-                    </div>
-                    <div class="field">
-                        <p class="control is-expanded has-icons-left has-icons-right">
-                            <input class="input @error('email') is-danger @enderror" type="text" placeholder="Email"
+                        <p class="control is-expanded has-icons-right">
+                            <input class="input @error('email') is-danger @enderror" type="text" placeholder="name@example.com"
                                    id="email" name="contact_email">
                         </p>
                         @error('contact_email')
