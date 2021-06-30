@@ -38,7 +38,7 @@ class FormController extends Controller
     public function store(Form $form, Request $request)
     {
         Form::create($this->getValidate($request));
-        return redirect('/');
+        return redirect('form');
     }
 
     /**
