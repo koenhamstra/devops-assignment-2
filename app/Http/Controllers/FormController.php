@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\form;
+use App\Models\Form;
 use Illuminate\Http\Request;
 
 class FormController extends Controller
@@ -14,7 +14,9 @@ class FormController extends Controller
      */
     public function index()
     {
-        return view('form');
+        $forms = Form::take(3)->latest()->get();
+
+        return view("form", compact('forms'));
     }
 
     /**
@@ -33,9 +35,9 @@ class FormController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(form $form, Request $request)
+    public function store(Form $form, Request $request)
     {
-        form::create($this->getValidate($request));
+        Form::create($this->getValidate($request));
         return redirect('/');
     }
 

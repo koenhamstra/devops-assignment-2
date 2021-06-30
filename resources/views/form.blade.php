@@ -187,5 +187,29 @@
         </form>
     </div>
 </section>
+
+<div id="why" class="why">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="titlepage">
+                    <h2>Blogposts</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            @foreach($forms as $form)
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                    <div id="box_ho" class="why-box">
+                        <h1>{{$form->first_name}}</h1>
+                        <h1>{{$form->last_name}}</h1>
+                        <p>{{$form->purpose}}</p>
+                    </div>
+                </div>
+            @endforeach
+        </div>
+    </div>
+</div>
+
 </body>
 </html>

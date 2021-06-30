@@ -20,7 +20,7 @@ Route::get('/', function () {
 });
 
 
-Route::resource('/form', FormController::class);
+Route::resource('/form', FormController::class)->middleware('auth');
 
 Route::resource('/flight', FlightController::class, );
 
@@ -28,8 +28,8 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
-Route::get('/form', function () {
-    return view('form');
-})->middleware(['auth'])->name('form');
+//Route::get('/form', function () {
+//    return view('form');
+//})->middleware(['auth'])->name('form');
 
 require __DIR__.'/auth.php';
